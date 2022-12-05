@@ -19,6 +19,16 @@
 
  * 참고 URL : https://synapeditor.com/docs/pages/viewpage.action?pageId=8421764
  */
+export const SYNAP_LICENSE = {
+    company: "넥슨코리아",
+    key: [
+        "U2FsdGVkX1/GhmACml0S9gL6lIXTBwsLVS5rOq4Hm4TWNbbhFmotFfs6ti/cb039wzkUKrMXEbzINmM9yBbEBN63bdqJRKBzbr+det/7TA8vKGL5+ZByIOvQYfOF03gh2fgFWEMovErL+k9c+VXsKdEdWtw6E2QhxGlZ1pzmbwS2rRT/TNHT+7HFU1BGVyrs",
+        "U2FsdGVkX1+e2GVqnR90e6cWHo6c9iHmf7AaN9vPo8Ew4N79FNClhRbiuk97RE+YPZkIHOyFuliQ0E+GayepwetYzmOJfBJTU2PkgELkBIDF0YPKQsF63/+oS0en1bRzLTsOmKN90nUZp6fbA9ep+BygqI1mBNzHpuoMx+LE73qwk1MLA0z+BJzrPv/43tDi",
+        "U2FsdGVkX1+AEmE8//duIpVT5uG5PvJN7tqfCKU1i4Iz/IVr+/GpwJ/ZbLLj74NVTdRi5L0vNWrt/u5sBombe3Xeqy2wR5lASVpdIaQNUQOEdIR7kwleV9q2WxlvZ8O2ReojCBobXEzvjIBBxtTJlyjToVS0kD1Tg13YDXhk5a1m9ZPZtuwBXK3Isp9Fqgt0",
+        "U2FsdGVkX1+lbwAMyzYZNwRh4THhkaCGAkHbVeLl8qbMteUiYZFEYsXx72Yemx36+jV047dSFUJgCkzrF9FHd3KpGeQ0pkJNyb55W5UV79O1/532BUBvEIFu0gScrgjQsbg96ooOZQrQvyqpcXHmVkF4W/PgQWVsH5V2FBVavLSkDQxxLvNCEk5btpHbVQA+",
+        "U2FsdGVkX1+V/0z23WBBLxU8vDN+/GLGUvCmh+t6K70+FVPknaJIs4mIaN9amY+pw1MPL/gTw/czHECEShSl1zPioIubmKn8BFBW7RbH5cf1R/9H6EyyKtIr91QBI4qQdqcidrasvDlRuiuw59qJKQet6I6HCM6eVpDUkOecDDe+f8uOaMGdMup7mtg2O4Bz"
+    ]
+}
 
 export const synapEditorConfig = {
     /**
@@ -35,7 +45,7 @@ export const synapEditorConfig = {
     //     key: ["GHQWP-35QIUGL-MRX0U5Y4-PT55ADUXS-UR4TI04F-Z5DQUEUQ"]
     // },
     //  'editor.license': './license.json',
-    'editor.license': { "company": "넥슨코리아", "key": ["U2FsdGVkX18EBFlp6oqIGev3zQ94Ajybc8/c1Ex+m3Lq3NxUDJrmZBvR262582xXRBGmPnsCNHeBfpNrDwtqEuu86d/gWGNGBSLpr8Cm+j8KLWzdzDvWqkZiuHz7i1CuqWOJP+stizEX/l6/bBGsyVKVbx3kwwa6vBXRoBMSvqSfwbkMIWBNBm7LZ0PmmkHg", "U2FsdGVkX1/5vd+k6GC9a/rNS4whXxy14Jzc3D1mFR/OtgfSXxD2kh2X+hypksnKfOIkgEYz++vrTDODNhwrdetTBHcZee/0Fnc8znpXhsz/J+USSldNdOf1UwexYz56dhdhcCVH/ByoB/FoFqXBMOjtnZGEvOa+vSPBac+NByFFAVpXw/0f6ZAPhYjE1X90", "U2FsdGVkX18IxTrBsaiEqF4L6zPKjm2x7XD67U8mRsT3tMbg0yK2sgNP4PkLIpOeNtv5U0rTlEndp9QGpHqDD1o+JGIjPvMpdQimDMbXveXagWD366A2eIuVIgNaLj96LQJ1WQ5zNEuecksw9m+bmdn8cZIOBs60zRCTn/yLO61znaq3onbNR8Qzirx2EcPX", "U2FsdGVkX18dqb8VNRyTAlXApfAZe1RFHmPNOPwKayVbtPsSbY0c0K6QolLtM0i57dUXeWHVNb0k1aEISEECZVRYF7mGDu0FFyTQHmMo0twlRjT5zQWiqYzsP735O+2Oo+mxpUzJ/Ei/EuiMDXMfJhlGAWCs4NxO8TitobuhT9dyoZvBNxa2lNZ9lDcCYyBN"] },
+    'editor.license': SYNAP_LICENSE,
     /**
      * 에디터 타입을 설정합니다.
      * ex) classic, inline, document
@@ -57,7 +67,7 @@ export const synapEditorConfig = {
      * 에디터의 높이를 설정합니다.
      * ex) '100%', '600px'
      */
-    'editor.size.height': '100%',
+    'editor.size.height': '500px',
 
     /**
      * 에디터 편집영역(se-contents)의 크기(px)를 설정합니다.
