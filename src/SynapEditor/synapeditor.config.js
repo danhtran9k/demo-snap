@@ -492,7 +492,7 @@ export const synapEditorConfig = {
      * 이미지 업로드 API를 설정합니다.
      * ex) '/imageAPI'
      */
-    'editor.upload.image.api': '',
+    'editor.upload.image.api': 'https://httpbin.org/anything',
 
     /**
      * 이미지 업로드 요청 헤더를 설정합니다.
